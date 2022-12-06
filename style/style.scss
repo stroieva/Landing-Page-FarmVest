@@ -446,6 +446,12 @@ a.active {
         }
     }
 
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     &__content {
         margin-left: 32px;
     }

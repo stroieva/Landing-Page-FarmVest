@@ -95,6 +95,7 @@ html {
   font-weight: 700;
   font-size: 70px;
   line-height: 78px;
+  overflow: hidden;
 }
 .title--decor {
   color: #23B123;
@@ -112,6 +113,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  overflow: hidden;
 }
 
 a.active {
@@ -299,6 +301,7 @@ a.active {
 .partners__item {
   padding: 0 15px;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 .partners__item img {
   max-width: 100%;
@@ -326,6 +329,7 @@ a.active {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .how-work__image img {
   border-radius: 20px;
@@ -338,6 +342,7 @@ a.active {
 }
 .list-work__column {
   flex: 0 1 100%;
+  overflow: hidden;
 }
 .list-work__column:not(:last-child) {
   margin-bottom: 42px;
@@ -349,6 +354,10 @@ a.active {
 }
 .list-work__item:not(:last-child) {
   margin-bottom: 42px;
+}
+.list-work__icon {
+  align-items: center;
+  justify-content: center;
 }
 .list-work__content {
   margin-left: 32px;
@@ -377,6 +386,7 @@ a.active {
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.05);
   padding: 99px 40px;
+  overflow: hidden;
 }
 .pathway__image img {
   border-radius: 20px;
@@ -462,6 +472,7 @@ a.active {
   font-weight: 500;
   gap: 50px;
   margin-bottom: 48px;
+  overflow: hidden;
 }
 .why__item::before {
   counter-increment: item;
@@ -491,6 +502,7 @@ a.active {
   border-radius: 20px;
   max-width: 100%;
   height: auto;
+  overflow: hidden;
 }
 
 .customers__content {
@@ -1166,6 +1178,9 @@ a.active {
   }
   .list-work__column {
     flex: 0 1 100%;
+  }
+  .list-work__content {
+    margin-left: 0;
   }
   .why__list {
     flex-direction: column;
